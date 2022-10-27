@@ -1,0 +1,27 @@
+citHeader("To cite scData in publications use:")
+
+citEntry(entry = "Article",
+  title        = "SCDC: bulk gene expression deconvolution by multiple single-cell RNA sequencing references",
+  author       = personList( as.person("Meichen Dong"),
+                   as.person("Aatish Thennavan"),
+                   as.person("Eugene Urrutia"),
+                   as.person("Yun Li"),
+                   as.person("Charles M Perou"),
+                   as.person("Fei Zou"),
+                   as.person("Yuchao Jiang")),
+  journal      = "Briefings in Bioinformatics",
+  year         = "2021",
+  volume       = "22",
+  number       = "1",
+  pages        = "416--427",
+  doi          = "10.1093/bib/bbz166",
+  url          = "https://doi.org/10.1093/bib/bbz166",
+  note         = "PMID: [31925417](https://pubmed.ncbi.nlm.nih.gov/31925417/)",
+  textVersion  = paste(
+    "Dong M, Thennavan A, Urrutia E, Li Y et al.",
+    "SCDC: bulk gene expression deconvolution by multiple",
+    "single-cell RNA sequencing references.",
+    "Brief Bioinform 2021 Jan 18;22(1):416-427.",
+    "DOI: [10.1093/bib/bbz166](https://doi.org/10.1093/bib/bbz166);",
+    "PMID: [31925417](https://pubmed.ncbi.nlm.nih.gov/31925417/)" )
+)
