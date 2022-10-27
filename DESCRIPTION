@@ -1,0 +1,24 @@
+Package: scData
+Title: Sample Data for 'MultiK'
+Version: 0.1.0
+Authors@R: c(
+    person("Siyao", "Liu", , "siyao_liu@med.unc.edu", role = c("aut", "cre")),
+    person("Stuart R.", "Jefferys", , "srjefferys@gmail.com", role = "ctb",
+           comment = c(ORCID = "0000-0001-6259-085X"))
+  )
+Description: Provides sample data for 'MultiK'.
+License: CC BY 4.0
+URL: https://github.com/siyao-liu/scData
+BugReports: https://github.com/siyao-liu/scData/issues
+Depends: 
+    R (>= 2.10)
+Imports: 
+    Seurat(>= 3.2.2)
+Suggests: 
+    spelling
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
